@@ -2,7 +2,7 @@
 
 <h1 align="center">Microsoft  Activation  Scripts (MAS)</h1>
 
-<p align="center">A Windows and Office activator using HWID / Ohook / KMS38 / Online KMS activation methods, with a focus on open-source code and fewer antivirus detections.</p>
+<p align="center">Aktivator za Windows i Office koji koristi HWID / Ohook / KMS38 / Online KMS metode aktivacije, sa fokusom na open-source kod i manje detekcija antivirusnih programa.</p>
 
 <p align="center">
     <a href="https://discord.gg/tVFN4N84PP"><img src="https://img.shields.io/badge/Chat%20with%20us%20on%20Discord--blue?style=social&logo=discord" alt="Chat with us without signup" title="Chat with us without signup"></a>
@@ -12,39 +12,40 @@
 
 <hr>
   
-## Download / How to use it?
+## PREUZIMANJE / Kako se koristi?
 
-### Method 1 - PowerShell (Windows 8 and later) ❤️
+### Metoda 1 - PowerShell (Windows 8 and later) ❤️
 
-1.   Open PowerShell (Not CMD). To do that, right-click on the Windows start menu and select PowerShell or Terminal.
-2.   Copy and paste the code below and press enter  
+1.   Otvorite PowerShell (Ne CMD). Da uradite to, pritisnite desni klik na Windows start meni i pritisnite PowerShell or Terminal.
+2.   Kopirajte i zalepite kod ispod i pritisnite enter  
 ```
 irm https://get.activated.win | iex
 ```
-or (deprecated, will be retired on Dec 31 2024, use above instead)  
+ili (zastareo, biće povučen 31. decembra 2024, umesto toga koristite gore navedeno)  
 ```
 irm https://massgrave.dev/get | iex
 ```
-3.   You will see the activation options. Choose [1] HWID for Windows activation. Choose [2] Ohook for Office activation.
-4.   That's all.
+3.   Videćete opcije aktivacije. Izaberite [1] HWID za aktivaciju Windows-a. Izaberite [2] Ohook za aktivaciju Office-a.
+4.   To je to!.
 
 ---
 
-- On older Windows builds you may need to run the below command before,  
+- Na starijim verzijama Windows-a, možda ćete morati da pokrenete komandu ispod pre toga.,  
 `[Net.ServicePointManager]::SecurityProtocol=[Net.SecurityProtocolType]::Tls12`  
-- The Powershell method does not work on Windows 7. Use the Method 2 - Traditional instead.  
-- The URL get.activated.win may be blocked by some DNS services because it is a new domain.
+- Metod putem Powershell-a ne radi na Windows 7. Umesto toga koristite Metod 2 - Tradicionalni.
+- URL get.activated.win može biti blokiran od strane nekih DNS servisa jer je to novi domen.
 
-### Method 2 - Traditional (Windows 7 and later)
+### Metoda 2 - Traditional (Windows 7 and later)
 
-1.   Download the file under the code button from [GitHub](https://github.com/massgravel/Microsoft-Activation-Scripts) / [Azure DevOps](https://dev.azure.com/massgrave/_git/Microsoft-Activation-Scripts) / [Self-hosted Git](https://git.activated.win/massgrave/Microsoft-Activation-Scripts)
-2.   Right-click on the downloaded zip file and extract
-3.   In the extracted folder, find the folder named `All-In-One-Version`
-4.   Run the file named `MAS_AIO.cmd`
-5.   You will see the activation options, follow the on-screen instructions.
-6.   That's all.
+1.   Preuzmite fajl ispod dugmeta "Code" sa [GitHub](https://github.com/massgravel/Microsoft-Activation-Scripts) / [Azure DevOps](https://dev.azure.com/massgrave/_git/Microsoft-Activation-Scripts) / [Self-hosted Git](https://git.activated.win/massgrave/Microsoft-Activation-Scripts)
+2.   Desni klik na preuzeti zip fajl i raspakujte ga.
+3.   U raspakovanom folderu pronađite folder pod nazivom `All-In-One-Version`
+4.   Pokrenite fajl pod nazivom `MAS_AIO.cmd`
+5.   Videćete opcije aktivacije, pratite uputstva na ekranu.
+6.   To je sve.
+   
 
-To run the scripts in unattended mode, check [here](https://massgrave.dev/command_line_switches)
+Da biste pokrenuli skripte u režimu bez nadzora, proverite [ovde](https://massgrave.dev/command_line_switches)
 
 </br>
 
